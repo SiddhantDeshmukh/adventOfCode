@@ -5,30 +5,13 @@ function score_game_1(v1, v2)
     "P" => 2,
     "S" => 3
   )
-
-  # R < P, P < S, S < R
-  if v1 == v2  # draw
-    return 3 + scoring[v2]
-  end
-  if v1 == "R"
-    if v2 == "S"  # loss
-      return 0 + scoring[v2]
-    else  # v2 = "P", win
-      return 6 + scoring[v2]
-    end
-  elseif v1 == "P"
-    if v2 == "S"  # win
-      return 6 + scoring[v2]
-    else  # v2 = "R", loss
-      return 0 + scoring[v2]
-    end
-  elseif v1 == "S"
-    if v2 == "R"  # win
-      return 6 + scoring[v2]
-    else  # v2 = "P", loss
-      return 0 + scoring[v2]
-    end
-  end
+  rules = Dict(
+    "R" => Dict("R" => 3, "P" => 6, "S" => 0),
+    "P" => Dict("R" => 0, "P" => 3, "S" => 6),
+    "S" => Dict("R" => 6, "P" => 0, "S" => 3),
+  )
+  outcome = rules[v1][v2]
+  return outcome + scoring[v2]
 end
 
 function score_game_2(v1, v2)
