@@ -26,3 +26,10 @@ integer in Julia, will definitely forget this by next year again.
 
 The boilerplate code script has not yet been written. Please check back
 tomorrow.
+
+## Day 4 - Camp Cleanup
+
+No smart answers here! Forgot to check symmetrically for a while, but overall a
+pretty easy day.
+
+Still no boilerplate code script.
