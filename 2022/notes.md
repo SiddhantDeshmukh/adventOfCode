@@ -33,3 +33,10 @@ No smart answers here! Forgot to check symmetrically for a while, but overall a
 pretty easy day.
 
 Still no boilerplate code script.
+
+## Day 5 - Supply Stacks
+
+Only pain. I did write the bash script to get some boilerplate code which is
+nice. Day 5 itself threw me because I made a bad assumnption in my regex that
+there would be only single digits. Aside from that, it wasn't that bad, it just
+took me a while.
