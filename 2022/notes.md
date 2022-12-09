@@ -40,3 +40,10 @@ Only pain. I did write the bash script to get some boilerplate code which is
 nice. Day 5 itself threw me because I made a bad assumnption in my regex that
 there would be only single digits. Aside from that, it wasn't that bad, it just
 took me a while.
+
+## Day 6 - Tuning Trouble
+
+Nice easy challenge! Wrote the first part generally so part 2 was exactly the
+same.
+
+## Day 7 - No Space Left On Device
