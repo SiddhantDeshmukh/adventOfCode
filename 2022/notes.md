@@ -47,3 +47,11 @@ Nice easy challenge! Wrote the first part generally so part 2 was exactly the
 same.
 
 ## Day 7 - No Space Left On Device
+
+(COME BACK LATER)
+
+## Day 8 - Treetop Tree House
+
+I didn't read the exercise right the first time so wasted a bit of time. Pretty
+straightforward in the end, just spent some time trying to formulate the code in
+a more clever way. Also forgot the way Julia indexes arrays. Again. Like always.
