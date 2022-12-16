@@ -55,3 +55,9 @@ same.
 I didn't read the exercise right the first time so wasted a bit of time. Pretty
 straightforward in the end, just spent some time trying to formulate the code in
 a more clever way. Also forgot the way Julia indexes arrays. Again. Like always.
+
+## Day 9 - Rope Bridge
+
+I spent a lot of time investigating the maths involved here because I found that
+interesting. Then, about an hour later, I had an epiphany: "My God, is this just
+Snake?"
